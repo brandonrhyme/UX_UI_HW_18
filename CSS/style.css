@@ -1,0 +1,54 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    background-color: aquamarine;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: auto;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+nav {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    background-color: rgb(209, 125, 0);
+}
+
+.heroImg {
+    text-align: center;
+    height: 600px;
+    padding: 25px;
+    background-color: goldenrod;
+}
+header {
+    height: 75px;
+    background-color: deeppink;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    background-color: indigo;
+    padding: 25px;
+
+}
+/* ul {
+    width: 50%;
+    margin-left: auto;
+    background-color: black;
+} */
+
+
+footer {
+    background-color: #373738;
+    text-align: center;
+    padding: 3%;
+}
+/* #5d54aa = a lovely purple */
