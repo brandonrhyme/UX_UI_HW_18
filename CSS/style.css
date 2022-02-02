@@ -1,54 +1,143 @@
 .inline-block {
     display: inline-block;
-    vertical-align: top;
-    background-color: aquamarine;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: auto;
+    vertical-align: middle;
+    background-color: #FFFFFF;
 }
 
 .logo {
-    width: 23%;
-    padding: 1%;
-    background-color: greenyellow;
+    padding: 20px;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 nav {
-    width: 70%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 1%;
-    background-color: rgb(209, 125, 0);
+    width: 80%;
+    text-align: end;
+
 }
 
 .heroImg {
-    text-align: center;
-    height: 600px;
-    padding: 25px;
-    background-color: goldenrod;
+    display: flex;
+    height: 800px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    justify-content: center;
+    align-items: center;
+    color: snow;
+    background-color: #FFFFFF;
 }
+
 header {
-    height: 75px;
-    background-color: deeppink;
+    height: auto;
+    justify-content: space-between;
+    background-color: #FFFFFF;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
-    background-color: indigo;
-    padding: 25px;
-
+    max-width: 375px;
+    max-height: fit-content;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+    color: #21243d;
 }
-/* ul {
-    width: 50%;
-    margin-left: auto;
-    background-color: black;
-} */
+
+ul {
+    /* background-color: black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+li {
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
 
 footer {
-    background-color: #373738;
+    background-color: #FFFFFF;
     text-align: center;
     padding: 3%;
+    color: #21243d;
 }
-/* #5d54aa = a lovely purple */
+
+
+/*            HW 18  -  My UX Skills & My Work        */
+
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    justify-self: center;
+}
+.flexContainer > div {
+    margin: 2%;
+    width: 237px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    margin-left: 10%;
+    max-width: 1200px;
+    margin-right: 10%;
+    grid-template-columns: 1fr 3fr;
+    /* justify-content: space-evenly; */
+    background-color: #FFFFFF;
+}
+.workGrid > div {
+    margin: 5%;
+    padding: 10px;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600) {
+    
+}
+
+/*           Styles        */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    width: 150px;
+    height: 45px;
+    border-radius: 9px;
+    background-color: #3A15BF;
+    color: #FFFFFF;
+}
+section.myWork h3 {
+    text-align: center;
+    margin-bottom: 75px;
+}
+section.myWork h1 {
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+}
+section.mySkills h1 {
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+}
